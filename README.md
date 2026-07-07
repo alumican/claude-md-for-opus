@@ -1,10 +1,10 @@
-**[Download CLAUDE.md](./CLAUDE.md)**
+**[Download CLAUDE.md](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md)**
 
 # Bringing Opus's Behavior Closer to Fable's
 
 **The goal of this project is to make Claude Opus, running as the main session in [Claude Code](https://claude.com/claude-code), behave like the higher-capability Claude Fable** — as an **architect / reviewer / subagent-manager** that designs, delegates implementation to subagents, and audits the result, rather than grinding through code itself and asking permission at every step. (Fable is a Claude model that sits a tier above Opus in capability.)
 
-Fable exhibits that lead-engineer discipline on its own. Opus has the raw capability but does not reliably *fire* the same behaviors unsolicited. This [`CLAUDE.md`](./CLAUDE.md) is the scaffolding that closes that gap.
+Fable exhibits that lead-engineer discipline on its own. Opus has the raw capability but does not reliably *fire* the same behaviors unsolicited. This [`CLAUDE.md`](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md) is the scaffolding that closes that gap.
 
 It was built as one clear arc, and this README follows it:
 
@@ -69,7 +69,7 @@ Tested against the stock general-purpose `CLAUDE.md` (and a no-prompt baseline),
 
 ## What the prompt actually adds
 
-The core interventions, each tied to an observed Fable–Opus difference. (The § numbers point to sections in [`CLAUDE.md`](./CLAUDE.md) itself.)
+The core interventions, each tied to an observed Fable–Opus difference. (The § numbers point to sections in [`CLAUDE.md`](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md) itself.)
 
 - **Autonomous completion (§0.1, §5).** Reversible work that follows from the request proceeds without asking; a report never ends with a request for permission to continue.
 - **Intent before action (§0.2).** Typos, slips, and instructions that seem aimed at a different context are read for intent, not executed literally; when a name and its behavior disagree, the *semantic* problem is fixed across every layer.
@@ -83,7 +83,7 @@ The rest of the document carries a general engineering philosophy — eight meta
 
 ## Using it
 
-Drop [`CLAUDE.md`](./CLAUDE.md) into the root of a repository you drive with Claude Code, with Opus as the main-session model. Add your project's structure, commands, and domain knowledge under the **Project-Specific** section at the end.
+Drop [`CLAUDE.md`](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md) into the root of a repository you drive with Claude Code, with Opus as the main-session model. Add your project's structure, commands, and domain knowledge under the **Project-Specific** section at the end.
 
 A few notes:
 

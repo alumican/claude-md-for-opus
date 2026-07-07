@@ -1,10 +1,10 @@
-**[CLAUDE.md をダウンロード](./CLAUDE.md)**
+**[CLAUDE.md をダウンロード](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md)**
 
 # Opus の振る舞いを Fable に近づける
 
 **本プロジェクトの目的は、[Claude Code](https://claude.com/claude-code) のメインセッションとして動く Claude Opus を、上位モデルの Claude Fable のように振る舞わせることです** — 自分でコードを書き進めて逐一許可を求めるのではなく、設計し、実装をサブエージェントに委譲し、その結果を監査する、**アーキテクト / レビュア / サブエージェント管理者**として。(Fable は能力面で Opus の一つ上のティアに位置する Claude モデルです。)
 
-Fable はそのリードエンジニア的な規律を自力で発揮します。Opus は素の能力はあるものの、同じ振る舞いを指示なしに確実に**発火**させません。この [`CLAUDE.md`](./CLAUDE.md) は、その差を埋める足場です。
+Fable はそのリードエンジニア的な規律を自力で発揮します。Opus は素の能力はあるものの、同じ振る舞いを指示なしに確実に**発火**させません。この [`CLAUDE.md`](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md) は、その差を埋める足場です。
 
 一本の明確な弧として作られており、本READMEもそれを辿ります:
 
@@ -69,7 +69,7 @@ Opus をメインセッションとして、Fable のように振る舞わせる
 
 ## プロンプトが実際に足すもの
 
-主要な介入と、それぞれが対応する観測された Fable–Opus の差(§番号は [`CLAUDE.md`](./CLAUDE.md) 内のセクションを指します):
+主要な介入と、それぞれが対応する観測された Fable–Opus の差(§番号は [`CLAUDE.md`](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md) 内のセクションを指します):
 
 - **自律完走(§0.1, §5)。** 依頼から導かれる可逆な作業は聞かずに進める。報告を「続行の許可待ち」で締めない。
 - **行動の前に意図(§0.2)。** 誤字・言い差し・別コンテキスト宛てに見える指示は、字面でなく意図で読む。名前と挙動が食い違うときは、名前だけでなく*意味の問題を全層で*直す。
@@ -83,7 +83,7 @@ Opus をメインセッションとして、Fable のように振る舞わせる
 
 ## 使い方
 
-Claude Code で駆動するリポジトリのルートに [`CLAUDE.md`](./CLAUDE.md) を置き、メインセッションのモデルを Opus にします。プロジェクトの構成・コマンド・ドメイン知識は、末尾の **Project-Specific** 節に追記してください。
+Claude Code で駆動するリポジトリのルートに [`CLAUDE.md`](https://raw.githubusercontent.com/alumican/claude-md-for-opus/refs/heads/main/CLAUDE.md) を置き、メインセッションのモデルを Opus にします。プロジェクトの構成・コマンド・ドメイン知識は、末尾の **Project-Specific** 節に追記してください。
 
 いくつかの注意:
 
