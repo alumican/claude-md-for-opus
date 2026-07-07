@@ -69,7 +69,7 @@ Tested against the stock general-purpose `CLAUDE.md` (and a no-prompt baseline),
 
 ## What the prompt actually adds
 
-The core interventions, each tied to an observed Fable–Opus difference:
+The core interventions, each tied to an observed Fable–Opus difference. (The § numbers point to sections in [`CLAUDE.md`](./CLAUDE.md) itself.)
 
 - **Autonomous completion (§0.1, §5).** Reversible work that follows from the request proceeds without asking; a report never ends with a request for permission to continue.
 - **Intent before action (§0.2).** Typos, slips, and instructions that seem aimed at a different context are read for intent, not executed literally; when a name and its behavior disagree, the *semantic* problem is fixed across every layer.
